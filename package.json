@@ -1,0 +1,20 @@
+{
+  "name": "welcome-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to welcome new members with a fancy embed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "wick",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.17.0",
+    "express": "^5.2.1",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
